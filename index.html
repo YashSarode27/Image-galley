@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>image gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1> Image Gallery</h1>
+
+
+    <div class="full-img" id="fullImgBox">
+        <img style="height: 552px; width: 514px;" src="unimg1.jpg" id="fullImg">
+        <span onclick="closefullIMg()">x</span>
+    </div>
+
+    <div class="img-gallery">
+        <img style="height: 320px; width: 300px;" src="unimg1.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg2.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg3.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg4.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg5.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg6.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg7.jpg" onclick="openfullIMg(this.src)">
+        <img style="height: 320px; width: 300px;" src="unimg8.jpg" onclick="openfullIMg(this.src)">
+
+    </div>
+
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
